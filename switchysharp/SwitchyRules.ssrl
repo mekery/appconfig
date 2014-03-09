@@ -17,6 +17,7 @@
 *.slideshare.net*
 *.twitter.com*
 *.flickr.com*
+*.wordpress.com*
 
 [regexp]
 
