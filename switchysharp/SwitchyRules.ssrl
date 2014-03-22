@@ -8,8 +8,10 @@
 *.facebook.com*
 *.github.com*
 *.google*.com*
+*gmail.com*
 *.googleapis.com*
 *.appspot.com*
+*.blogspot.com*
 *.googlecode.com*
 *.gstatic.com*
 *.googleusercontent.com*
