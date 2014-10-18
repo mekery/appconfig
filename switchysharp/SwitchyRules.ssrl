@@ -6,7 +6,6 @@
 
 [wildcard]
 *.facebook.com*
-*.github.com*
 *.google*.com*
 *gmail.com*
 *.googleapis.com*
