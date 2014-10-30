@@ -19,7 +19,7 @@
 *.twitter.com*
 *.flickr.com*
 *.wordpress.com*
-*.slack.com*
+#*.slack.com*
 *.qt.io*
 
 [regexp]
