@@ -6,6 +6,8 @@
 
 [wildcard]
 *.facebook.com*
+
+# Google Start
 *.google*.com*
 *gmail.com*
 *.googleapis.com*
@@ -15,6 +17,9 @@
 *.gstatic.com*
 *.googleusercontent.com*
 *.youtube.com*
+*.android.com*
+# Google End
+
 *.slideshare.net*
 *.twitter.com*
 *.flickr.com*
