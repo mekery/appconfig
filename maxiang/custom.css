@@ -1,0 +1,72 @@
+/*!
+ *  App configuration
+ *  ------------------------------------------------------------------------------
+ *  The customized css for Maxiang app.
+ *
+ *  Author - Micle Bu
+ *  ------------------------------------------------------------------------------
+ *  Email: micle@oriovo.com
+ *  Web: http://www.oriovo.com
+ */
+
+/**************************************************************
+* Global styles                                       		  *
+***************************************************************/
+h1,h2 {
+	margin: 1.5em 0 0.5em 0;
+}
+
+h2 {
+	border-bottom: 1px dashed #dddddd;
+}
+
+/**************************************************************
+* Headings with counter                                       *
+***************************************************************/
+body {
+	counter-reset: h2;
+}
+
+h2 {
+	counter-reset:h3;
+}
+
+h2:before {
+	counter-increment:h2;
+	content:counter(h2) ". ";
+}
+
+h3:before {
+	counter-increment:h3;
+	content:counter(h2) "." counter(h3) " ";
+}
+
+h4:before {
+	counter-increment:h4;
+	content:counter(h2) "." counter(h3) "." counter(h4)  " ";
+}
+
+hr {
+	margin: 0 0 1em 0;
+	border: none;
+}
+
+/*------------------------------------------------------------*
+ *  Table Styles 											  *
+ *------------------------------------------------------------*/
+table {
+	width: 100%;
+}
+
+tr {
+	background: #ffffff;
+}
+
+tr:hover {
+	background: #efefef;		
+}
+
+th {
+	text-align: center;
+	background: #eeeeee;
+}
