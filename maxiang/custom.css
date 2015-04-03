@@ -73,20 +73,24 @@ table {
 	width: 100%;
 }
 
-tr {
+table tr {
 	background: #ffffff;
 }
 
-tr:hover {
+table tr:hover, table tr:nth-child(2n):hover {
 	background: #efefef;		
 }
 
-th {
+table tr:nth-child(2n) {
+  background-color: #F8F8F8;
+}
+
+table th {
 	text-align: center;
 	background: #eeeeee;
 }
-table th,table td,table thead:first-child tr:first-child th{
-	padding:.3em;
+table th, table td, table thead:first-child tr:first-child th{
+	padding:.35em;
 	border:1px solid #ddd;
 	line-height: 1.5;
 }
