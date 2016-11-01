@@ -1,0 +1,50 @@
+<settings>
+  <mirrors>
+      <mirror>
+	  <id>nexus</id>
+          <mirrorOf>*</mirrorOf>
+          <url>http://192.168.1.85:8081/nexus/content/groups/public</url>
+      </mirror>
+  </mirrors>
+
+  <profiles>
+      <profile>
+          <id>nexus</id>
+              <repositories>
+                  <repository>
+                      <id>nexus</id>
+                      <name>Nexus</name>
+                      <url>http://192.168.1.85:8081/nexus/content/groups/public</url>
+                      <releases><enabled>true</enabled></releases>
+                      <snapshots><enabled>true</enabled></snapshots>
+                  </repository>
+              </repositories>
+              <pluginRepositories>
+                  <pluginRepository>
+                      <id>nexus</id>
+                      <name>Nexus</name>
+                      <url>http://192.168.1.85:8081/nexus/content/groups/public</url>
+                      <releases><enabled>true</enabled></releases>
+                      <snapshots><enabled>true</enabled> </snapshots>
+                  </pluginRepository>
+              </pluginRepositories>
+      </profile>
+  </profiles>
+
+  <servers>
+      <server>
+          <id>releases</id>
+          <username>admin</username>
+          <password>123456</password>
+      </server>
+      <server>
+          <id>snapshots</id>
+          <username>admin</username>
+          <password>123456</password>
+      </server>
+  </servers>
+
+  <activeProfiles>
+      <activeProfile>nexus</activeProfile>
+  </activeProfiles>
+</settings>
